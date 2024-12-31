@@ -1,11 +1,20 @@
+import {
+  boltshift,
+  featherdev,
+  lightbox,
+  spherule,
+  nietzsche,
+  globalbank,
+} from "../assets";
+
 function SocialLogo() {
   const logos = [
-    { src: "src/assets/boltshift.png", alt: "Boltshift" },
-    { src: "src/assets/lightbox.png", alt: "Lightbox" },
-    { src: "src/assets/featherdev.png", alt: "FeatherDev" },
-    { src: "src/assets/spherule.png", alt: "Spherule" },
-    { src: "src/assets/globalbank.png", alt: "GlobalBank" },
-    { src: "src/assets/nietzsche.png", alt: "Nietzsche" },
+    { src: boltshift, alt: "Boltshift" },
+    { src: lightbox, alt: "Lightbox" },
+    { src: featherdev, alt: "FeatherDev" },
+    { src: spherule, alt: "Spherule" },
+    { src: globalbank, alt: "GlobalBank" },
+    { src: nietzsche, alt: "Nietzsche" },
   ];
 
   return (
