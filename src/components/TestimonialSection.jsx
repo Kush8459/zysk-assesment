@@ -1,11 +1,13 @@
+import { avatar, company } from "../assets";
+
 function TestimonialSection() {
   const testimonial = {
     quote:
       "We've been using Untitled to kick start every new project and can't imagine working without it.",
     author: "Candice Wu",
     role: "Product Manager, Sisyphus",
-    image: "src/assets/testimonal/company.png",
-    avatar: "src/assets/testimonal/avatar.png",
+    image: company,
+    avatar: avatar,
   };
 
   return (

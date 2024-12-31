@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { team } from "../assets";
 
 function Faq() {
   const faqs = [
@@ -79,7 +80,7 @@ function Faq() {
         </div>
         <div className="flex flex-col items-center justify-center mt-12 p-6 gap-8 bg-purple-100 rounded-lg">
           <img
-            src="src/assets/team.png"
+            src={team}
             alt="Team Member"
             className="w-[120px] h-14 rounded-full"
           />

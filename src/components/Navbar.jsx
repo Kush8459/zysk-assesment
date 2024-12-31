@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { logo, profile } from "../assets";
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -23,7 +24,7 @@ function Navbar() {
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-3">
           <div className="flex items-center">
-            <img src="src/assets/logo.png" alt="Logo" className="h-12 w-44" />
+            <img src={logo} alt="Logo" className="h-12 w-44" />
           </div>
           <div className="hidden sm:flex space-x-8 items-center">
             <Link
@@ -130,7 +131,7 @@ function Navbar() {
               Pricing
             </Link>
             <img
-              src="src/assets/profile.png"
+              src={profile}
               alt="User Profile"
               className="h-8 w-8 rounded-full"
             />

@@ -1,19 +1,21 @@
+import { desktopfull, feature1, feature2, feature3, mobile } from "../assets";
+
 function Content() {
   const features = [
     {
-      icon: "src/assets/features/image1.png",
+      icon: feature1,
       title: "Share team inboxes",
       description:
         "Whether you have a team of 2 or 200, our shared team inboxes keep everyone on the same page and in the loop.",
     },
     {
-      icon: "src/assets/features/image2.png",
+      icon: feature2,
       title: "Deliver instant answers",
       description:
         "An all-in-one customer service platform that helps you balance everything your customers need to be happy.",
     },
     {
-      icon: "src/assets/features/image3.png",
+      icon: feature3,
       title: "Manage your team with reports",
       description:
         "Measure what matters with Untitled’s easy-to-use reports. You can filter, export, and drilldown on the data in a couple clicks.",
@@ -39,13 +41,13 @@ function Content() {
 
         <div className="flex justify-center sm:left-10 items-center relative">
           <img
-            src="src/assets/content/mobile.png"
+            src={mobile}
             alt="Mobile Stats for Olivia Rhye"
             className="sm:h-[500px] h-[320px] object-cover object-top w-[245px] top-20 left-32 sm:absolute"
           />
 
           <img
-            src="src/assets/chartMobile.png"
+            src={desktopfull}
             alt="Desktop Analytics"
             className="w-[768px] hidden sm:block h-[600px] object-cover"
           />

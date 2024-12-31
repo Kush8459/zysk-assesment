@@ -1,3 +1,5 @@
+import { logo } from "../assets";
+
 const footerData = [
   {
     title: "Product",
@@ -95,7 +97,7 @@ function Footer() {
         </div>
         <div className="mt-12 border-t pt-8">
           <div className="flex justify-between items-center flex-col md:flex-row gap-4">
-            <img src="src/assets/logo.png" alt="Logo" className="h-12 w-44" />
+            <img src={logo} alt="Logo" className="h-12 w-44" />
             <p className="text-gray-600">
               © 2077 Untitled UI. All rights reserved.
             </p>

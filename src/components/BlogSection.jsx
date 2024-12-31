@@ -1,3 +1,5 @@
+import { avatar, blog1, blog2, blog3 } from "../assets";
+
 function BlogSection() {
   const blogPosts = [
     {
@@ -7,8 +9,8 @@ function BlogSection() {
         "How do you create compelling presentations that wow your colleagues and impress your managers?",
       author: "Olivia Ryhe",
       date: "20 Jan 2024",
-      imageUrl: "src/assets/blogs/blog1.png",
-      avatar: "src/assets/testimonal/avatar.png",
+      imageUrl: blog1,
+      avatar: avatar,
     },
     {
       category: "Product",
@@ -17,8 +19,8 @@ function BlogSection() {
         "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get started.",
       author: "Phoenix Baker",
       date: "19 Jan 2024",
-      imageUrl: "src/assets/blogs/blog2.png",
-      avatar: "src/assets/testimonal/avatar.png",
+      imageUrl: blog2,
+      avatar: avatar,
     },
     {
       category: "Software Engineering",
@@ -27,8 +29,8 @@ function BlogSection() {
         "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and managing them.",
       author: "Lana Steiner",
       date: "18 Jan 2024",
-      imageUrl: "src/assets/blogs/blog3.png",
-      avatar: "src/assets/testimonal/avatar.png",
+      imageUrl: blog3,
+      avatar: avatar,
     },
   ];
 

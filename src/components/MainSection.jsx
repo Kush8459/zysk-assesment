@@ -1,3 +1,5 @@
+import { desktopfull, desktophalf } from "../assets";
+
 function MainSection() {
   return (
     <div>
@@ -50,10 +52,14 @@ function MainSection() {
         </div>
 
         <div className="mt-6">
-        <picture>
-            <source srcSet="src/assets/chartDesktop.png" media="(min-width: 768px)" />
-            <source srcSet="src/assets/chartMobile.png" media="(max-width: 767px)" />
-            <img src="src/assets/chartMobile.png" alt="Analytics Chart" className="w-full h-auto object-cover mt-2" />
+          <picture>
+            <source srcSet={desktophalf} media="(min-width: 768px)" />
+            <source srcSet={desktopfull} media="(max-width: 767px)" />
+            <img
+              src={desktopfull}
+              alt="Analytics Chart"
+              className="w-full h-auto object-cover mt-2"
+            />
           </picture>
         </div>
       </div>
