@@ -34,7 +34,6 @@ function Navbar() {
               Home
             </Link>
 
-            {/* Products Dropdown */}
             <div className="relative">
               <button
                 onClick={toggleProductsDropdown}

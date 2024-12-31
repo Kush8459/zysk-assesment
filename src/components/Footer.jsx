@@ -71,7 +71,7 @@ const footerData = [
 
 function Footer() {
   return (
-    <footer className="py-12">
+    <footer className="pt-12">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 px-2 sm:grid-cols-3 md:grid-cols-6 gap-10">
           {footerData.map((section) => (

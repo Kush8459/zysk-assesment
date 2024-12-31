@@ -28,6 +28,10 @@ import feature6 from "./features/image6.png";
 import avatar from "./testimonal/avatar.png";
 import company from "./testimonal/company.png";
 
+// blogs avatar
+import avatar2 from "./blogs/avatar2.png";
+import avatar3 from "./blogs/avatar3.png";
+
 import team from "./team.png";
 import logo from "./logo.png";
 import profile from "./profile.png";
@@ -52,6 +56,8 @@ export {
   feature5,
   feature6,
   avatar,
+  avatar2,
+  avatar3,
   company,
   team,
   logo,

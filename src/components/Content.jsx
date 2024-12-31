@@ -1,4 +1,5 @@
 import { desktopfull, feature1, feature2, feature3, mobile } from "../assets";
+import { Link } from "react-router-dom";
 
 function Content() {
   const features = [
@@ -70,7 +71,7 @@ function Content() {
                 {feature.description}
               </p>
               <div className="text-indigo-600 hover:text-indigo-800  flex justify-center items-center mt-2">
-                <a href="/learn-more">Learn more</a>
+                <Link to="/learn-more">Learn more</Link>
                 <svg
                   className="ml-2 mt-[2px] w-4 h-4"
                   fill="none"

@@ -19,7 +19,7 @@ function Faq() {
         "You can cancel your subscription at any time. Your cancellation will take effect at the end of the current billing period.",
     },
     {
-      question: "Can other info be added to an invoice?",
+      question: "Can info be added to an invoice?",
       answer:
         "Yes, you can customize your invoices by adding additional information such as your business name, address, and more.",
     },

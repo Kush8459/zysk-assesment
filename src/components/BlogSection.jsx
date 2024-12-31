@@ -1,4 +1,4 @@
-import { avatar, blog1, blog2, blog3 } from "../assets";
+import { avatar, avatar2, avatar3, blog1, blog2, blog3 } from "../assets";
 
 function BlogSection() {
   const blogPosts = [
@@ -20,7 +20,7 @@ function BlogSection() {
       author: "Phoenix Baker",
       date: "19 Jan 2024",
       imageUrl: blog2,
-      avatar: avatar,
+      avatar: avatar2,
     },
     {
       category: "Software Engineering",
@@ -30,7 +30,7 @@ function BlogSection() {
       author: "Lana Steiner",
       date: "18 Jan 2024",
       imageUrl: blog3,
-      avatar: avatar,
+      avatar: avatar3,
     },
   ];
 
@@ -56,7 +56,7 @@ function BlogSection() {
           {blogPosts.map((post, index) => (
             <div
               key={index}
-              className="p-4 flex flex-col justify-around rounded-lg"
+              className="py-4 flex flex-col justify-around rounded-lg"
             >
               <img
                 src={post.imageUrl}

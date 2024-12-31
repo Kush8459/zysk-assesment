@@ -1,16 +1,15 @@
 import { desktopfull, desktophalf } from "../assets";
+import { Link } from "react-router-dom";
 
 function MainSection() {
   return (
     <div>
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="bg-purple-200 border-2 border-purple-600 p-2 rounded-lg max-w-[400px] mx-auto my-2">
-          <div className="flex items-center justify-between text-purple-600">
-            <div className="bg-white px-2 border-2 rounded-xl">
-              <span className="font-semibold">New feature</span>
-            </div>
-            <a
-              href="/dashboard"
+        <div className="bg-purple-200 border-2 border-purple-600 w-[300px] sm:w-[400px] p-2 rounded-lg mx-auto my-2">
+          <div className="flex flex-col sm:flex-row items-center justify-between text-purple-600">
+          <span className="font-semibold border-2 bg-white rounded-full px-2">New feature</span>
+            <Link
+              to="/dashboard"
               className="flex items-center hover:text-purple-800"
             >
               Check out the team dashboard
@@ -28,7 +27,7 @@ function MainSection() {
                   d="M9 5l7 7-7 7"
                 ></path>
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
 
